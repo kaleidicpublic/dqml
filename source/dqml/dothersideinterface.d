@@ -4,6 +4,7 @@ extern(C)
 {
     // QCoreApplication
     void dos_qcoreapplication_application_dir_path(ref char*);
+    void dos_qcoreapplication_add_library_path(const char*);
 
     // QApplication
     void dos_qapplication_create();
